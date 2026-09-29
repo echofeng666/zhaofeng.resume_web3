@@ -118,6 +118,7 @@ const COMPANIES = [
                 desc: '参与公司短视频、长视频 Flutter 项目研发，负责功能模块开发与 bug 修复优化。',
                 tech: ['Flutter', 'Getx', 'Dio'],
                 icon: ICONS.video,
+                img: 'images/project_by_video.png',
                 gradient: GRADIENTS.g3
             }
         ]
