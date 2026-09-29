@@ -149,6 +149,7 @@ const COMPANIES = [
                 desc: '声网项目，Android 原生开发。语音聊天交友、大神陪练、组队开黑类语音直播社交产品。',
                 tech: ['Android', '组件化', 'MVP', '直播SDK', 'IM SDK'],
                 icon: ICONS.mic,
+                img: 'images/project_voice.png',
                 gradient: GRADIENTS.g4
             }
         ]
@@ -172,6 +173,7 @@ const COMPANIES = [
                 tech: ['MVP', 'okhttp', 'Kotlin', '互动直播SDK', '谷歌上架'],
                 icon: ICONS.video,
                 link: 'https://play.google.com/store/apps/details?id=com.jojo',
+                img: 'images/project_clld_jojo.png',
                 gradient: GRADIENTS.g5
             }
         ]
@@ -195,16 +197,9 @@ const COMPANIES = [
                 desc: '区块链钱包项目，冷钱包，本地化逻辑较多。涉及 20+ 张数据库表，涵盖 AES、Base64、Sing、web3j 加密。数据库升级、热补丁更新、Bugly 覆盖更新、事件埋点统计等全链路工作。',
                 tech: ['Kotlin', 'Realm', 'AES', 'web3j', '热修复', 'Bugly'],
                 icon: ICONS.hexagon,
+                img: 'images/project_octoken.png',
                 gradient: GRADIENTS.g6
             },
-            {
-                name: '奇瑞沙特社区项目',
-                period: '2019.10 - 2021.09',
-                desc: '奇瑞车主软件，包含社区、资讯、车机管理控制。Flutter 接入华为原生车机 SDK，实现对汽车空调、通风、座椅、远程、灯光、喇叭等 20+ 原生接口的数据对接及调试。',
-                tech: ['Flutter', '华为车机SDK', 'Android'],
-                icon: ICONS.signal,
-                gradient: GRADIENTS.g6
-            }
         ]
     },
     {
@@ -225,14 +220,7 @@ const COMPANIES = [
                 desc: '海外视频产品，类抖音，看视频得金币盈利模式。集成 Google、Facebook、Twitter、雅虎、汇量、友盟等广告 SDK。累积安装 90 万+，后因 Google 政策原因下架。负责主要研发工作。',
                 tech: ['MVP', 'okhttp', 'Java', '谷歌广告', '谷歌上架'],
                 icon: ICONS.play,
-                gradient: GRADIENTS.g7
-            },
-            {
-                name: '小友',
-                period: '2019.05 - 2019.08',
-                desc: '实名制社交软件，集成 IM、活体认证、微信授权支付分享、支付宝支付、语音聊天室、地图等功能。',
-                tech: ['Java', 'IM SDK', '微信支付', '支付宝', '百度地图'],
-                icon: ICONS.chat,
+                img: 'images/project_jojo.jpg',
                 gradient: GRADIENTS.g7
             },
             {
@@ -263,6 +251,7 @@ const COMPANIES = [
                 desc: '互动直播类 APP，支持互动直播基本功能及多人连麦、点歌、打赏、评论、礼物动效等。使用腾讯云服务器及腾讯互动直播 SDK。后更名为 JMTime（积木时光机）。担任技术总监、安卓主程。',
                 tech: ['腾讯互动直播SDK', '直播', 'Android'],
                 icon: ICONS.broadcast,
+                img: 'images/project_jmtime.png',
                 gradient: GRADIENTS.g8
             },
             {
@@ -309,6 +298,7 @@ const COMPANIES = [
                 desc: '动鱼数码与咪咕音乐合作研发的音乐社交类 APP，包括播放相关功能、歌单、歌词、演唱会、地图周边用户、周边歌单、即时聊天等。迭代到 2.0 版本，历史注册用户约 30 万。担任前端项目负责人、安卓主程。',
                 tech: ['MVC', '数据库', 'MediaPlayer', 'Service', '百度地图'],
                 icon: ICONS.music,
+                img: 'images/project_tingsuo.png',
                 gradient: GRADIENTS.g9
             }
         ]
@@ -331,6 +321,7 @@ const COMPANIES = [
                 desc: '公司电信事业部为四川电信开发的个人宽带业务管理平台软件，包含宽带报修、测速、视频点播、管理等周边功能。担任天源迪科电信事业部 Android 程序。',
                 tech: ['Android', 'MVC'],
                 icon: ICONS.signal,
+                img: 'images/project_kuankuan.png',
                 gradient: GRADIENTS.g10
             }
         ]
